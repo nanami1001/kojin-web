@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     default: "index.css",
     haru: "sakura.css",
     natsu: "beach.css",
+    aki: "aki.css",
     fuyu: "fuyu.css"
   };
 
