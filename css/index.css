@@ -319,12 +319,17 @@ main {
     max-width: 800px; /* 設定最大寬度 */
     padding: 20px;
     background-color: rgba(240, 240, 240, 0.9); /* 半透明背景 */
-    color: #fff;
-    margin-top  : 20px;
+    color: #000; /* 建議使用深色字體，與淺底背景對比更清晰 */
+    margin: 20px auto; /* 加 auto 讓板塊置中 */
     box-sizing: border-box; /* 使內邊距不影響元素大小 */
     border-radius: 16px;
-    border: 1px solid #60d2ff; /* 新增藍色邊框 */
+    border: 1px solid #60d2ff; /* 藍色邊框 */
+    text-align: left;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    transition: all 0.3s ease-in-out;
 }
+
 
 
 /* 設定自動調整大小的文字 */
